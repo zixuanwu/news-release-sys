@@ -1,0 +1,3467 @@
+[ 2018-12-18T20:24:15+08:00 ] ::1 /news%20release%20sysstem%20created%20by%20wzx/index.php/Admin/News/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000498s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000514s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000545s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000172s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000329s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.144017s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.144046s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000283s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000300s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000961s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001005s ]
+
+[ 2018-12-18T20:25:00+08:00 ] ::1 /news%20release%20sysstem%20created%20by%20wzx/index.php/Admin/News/userlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000329s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000455s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000481s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0491s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` LIMIT 1   [ RunTime:0.0823s ]
+SQL: SELECT * FROM `user` ORDER BY userid DESC LIMIT 0,9   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000067s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.125191s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.125227s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000262s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000281s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000777s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000814s ]
+
+[ 2018-12-18T20:25:05+08:00 ] ::1 /news%20release%20sysstem%20created%20by%20wzx/index.php/Admin/News/userlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002989s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000507s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000538s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0825s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` LIMIT 1   [ RunTime:0.0017s ]
+SQL: SELECT * FROM `user` ORDER BY userid DESC LIMIT 0,9   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000052s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000096s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008156s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008188s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000245s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000273s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001076s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001134s ]
+
+[ 2018-12-18T20:25:08+08:00 ] ::1 /news%20release%20sysstem%20created%20by%20wzx/index.php/Admin/News/useredit/userid/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000265s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000454s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000479s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.1247s ]
+SQL: SELECT * FROM `user` WHERE `userid` = '4'  [ RunTime:0.0445s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000156s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000978s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.710203s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.710291s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000177s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000194s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000414s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000432s ]
+
+[ 2018-12-18T20:25:09+08:00 ] ::1 /news%20release%20sysstem%20created%20by%20wzx/index.php/Admin/News/useredit/userid/js/Confim.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000421s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001102s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001173s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0470s ]
+SQL: SELECT * FROM `user` WHERE `userid` = 'js'  [ RunTime:0.0787s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000059s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000108s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026624s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026688s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000529s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000569s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000526s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000550s ]
+
+[ 2018-12-18T20:26:49+08:00 ] ::1 /news%20release%20sysstem%20created%20by%20wzx/index.php/Admin/News/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000305s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000517s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000554s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000050s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000087s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033641s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033675s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000236s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000263s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001174s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001211s ]
+
+[ 2018-12-18T20:26:51+08:00 ] ::1 /news%20release%20sysstem%20created%20by%20wzx/index.php/Admin/News/userlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000311s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000386s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000408s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0725s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `user` ORDER BY userid DESC LIMIT 0,9   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000068s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027570s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000221s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000238s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000580s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000608s ]
+
+[ 2018-12-18T20:26:54+08:00 ] ::1 /news%20release%20sysstem%20created%20by%20wzx/index.php/Admin/News/useredit/userid/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000292s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000382s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000405s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0483s ]
+SQL: SELECT * FROM `user` WHERE `userid` = '4'  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000123s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000198s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.059137s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.059194s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000363s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000404s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000571s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000610s ]
+
+[ 2018-12-18T20:26:54+08:00 ] ::1 /news%20release%20sysstem%20created%20by%20wzx/index.php/Admin/News/useredit/userid/js/Confim.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001865s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000849s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000916s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0546s ]
+SQL: SELECT * FROM `user` WHERE `userid` = 'js'  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000064s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007532s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007563s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000408s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000442s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000958s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001016s ]
+
+[ 2018-12-18T20:26:58+08:00 ] ::1 /news%20release%20sysstem%20created%20by%20wzx/index.php/Admin/News/newslist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000288s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000390s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000414s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0660s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `news` LIMIT 1   [ RunTime:0.0076s ]
+SQL: SELECT * FROM `news` ORDER BY News_ID DESC LIMIT 0,9   [ RunTime:0.0268s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000054s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000093s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.085663s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.085733s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000252s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000284s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000496s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000526s ]
+
+[ 2018-12-18T20:26:58+08:00 ] ::1 /news%20release%20sysstem%20created%20by%20wzx/index.php/Admin/News/__PUBlic__asset/img/avatar.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000623s ]
+
+[ 2018-12-18T20:27:00+08:00 ] ::1 /news%20release%20sysstem%20created%20by%20wzx/index.php/Admin/News/newsitem/newsid/7.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000361s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000478s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000504s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0662s ]
+SQL: SELECT * FROM `news` WHERE `News_ID` = '7'  [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000073s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000120s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.087221s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.087330s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000319s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000340s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000558s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000578s ]
+
+[ 2018-12-18T20:27:02+08:00 ] ::1 /news%20release%20sysstem%20created%20by%20wzx/index.php/Admin/News/newsupload.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000335s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000457s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000482s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000067s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.058847s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.058875s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000181s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000197s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000501s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000528s ]
+
+[ 2018-12-18T20:27:12+08:00 ] ::1 /news%20release%20sysstem%20created%20by%20wzx/index.php/Admin/News/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000337s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000455s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000479s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000065s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.045340s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045372s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000214s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000246s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000736s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000781s ]
+
+[ 2018-12-18T20:27:21+08:00 ] ::1 /news%20release%20sysstem%20created%20by%20wzx/index.php/Admin/News/userlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000313s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001260s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001334s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0105s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `user` ORDER BY userid DESC LIMIT 0,9   [ RunTime:0.0138s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000075s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009258s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009294s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000206s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000226s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000896s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000950s ]
+
+[ 2018-12-18T20:28:43+08:00 ] ::1 /news%20release%20sysstem%20created%20by%20wzx/index.php/Admin/News/newsitem.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000324s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000557s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000592s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0461s ]
+SQL: SELECT * FROM `news` WHERE `News_ID` = ''  [ RunTime:0.0678s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000082s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000132s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.077669s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.077728s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000509s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000546s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000748s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000783s ]
+
+[ 2018-12-18T20:28:44+08:00 ] ::1 /news%20release%20sysstem%20created%20by%20wzx/index.php/Admin/News/newslist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000625s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000487s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000530s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0114s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `news` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `news` ORDER BY News_ID DESC LIMIT 0,9   [ RunTime:0.0060s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000059s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000109s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040410s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040442s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000295s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000325s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000561s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000591s ]
+
+[ 2018-12-18T20:28:44+08:00 ] ::1 /news%20release%20sysstem%20created%20by%20wzx/index.php/Admin/News/__PUBlic__asset/img/avatar.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000520s ]
+
+[ 2018-12-18T20:28:45+08:00 ] ::1 /news%20release%20sysstem%20created%20by%20wzx/index.php/Admin/News/newsitem/newsid/7.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000334s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000531s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000564s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0360s ]
+SQL: SELECT * FROM `news` WHERE `News_ID` = '7'  [ RunTime:0.0142s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000099s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000170s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017668s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017744s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000565s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000613s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001173s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001222s ]
+
+[ 2018-12-18T20:28:49+08:00 ] ::1 /news%20release%20sysstem%20created%20by%20wzx/index.php/Admin/News/newslist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000320s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000457s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000483s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.1902s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `news` LIMIT 1   [ RunTime:0.0109s ]
+SQL: SELECT * FROM `news` ORDER BY News_ID DESC LIMIT 0,9   [ RunTime:0.0955s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000076s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009205s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009240s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000287s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000310s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000539s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000562s ]
+
+[ 2018-12-18T20:28:49+08:00 ] ::1 /news%20release%20sysstem%20created%20by%20wzx/index.php/Admin/News/__PUBlic__asset/img/avatar.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000336s ]
+
+[ 2018-12-18T20:28:53+08:00 ] ::1 /news%20release%20sysstem%20created%20by%20wzx/index.php/Admin/News/newsitem/newsid/7.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000468s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000653s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000695s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0494s ]
+SQL: SELECT * FROM `news` WHERE `News_ID` = '7'  [ RunTime:0.0021s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000091s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010953s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011005s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000368s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000407s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000908s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000954s ]
+
+[ 2018-12-18T20:28:57+08:00 ] ::1 /news%20release%20sysstem%20created%20by%20wzx/index.php/Admin/News/newsitem.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000271s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000400s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000421s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0343s ]
+SQL: SELECT * FROM `news` WHERE `News_ID` = ''  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000048s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000074s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009794s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009836s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000226s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000247s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000562s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000584s ]
+
+[ 2018-12-18T20:28:59+08:00 ] ::1 /news%20release%20sysstem%20created%20by%20wzx/index.php/Admin/News/newslist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000303s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000436s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000463s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0383s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `news` LIMIT 1   [ RunTime:0.0064s ]
+SQL: SELECT * FROM `news` ORDER BY News_ID DESC LIMIT 0,9   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000174s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000308s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015128s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015182s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000410s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000449s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001042s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001085s ]
+
+[ 2018-12-18T20:28:59+08:00 ] ::1 /news%20release%20sysstem%20created%20by%20wzx/index.php/Admin/News/__PUBlic__asset/img/avatar.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000315s ]
+
+[ 2018-12-18T20:29:15+08:00 ] ::1 /news%20release%20sysstem%20created%20by%20wzx/index.php/Admin/News/userlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000330s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000514s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000541s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0278s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `user` ORDER BY userid DESC LIMIT 0,9   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000095s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029975s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000175s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000191s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000769s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000823s ]
+
+[ 2018-12-18T20:29:17+08:00 ] ::1 /news%20release%20sysstem%20created%20by%20wzx/index.php/Admin/News/newslist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000479s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000686s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000733s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0487s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `news` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `news` ORDER BY News_ID DESC LIMIT 0,9   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000081s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008937s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008978s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000344s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000376s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000737s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000776s ]
+
+[ 2018-12-18T20:29:17+08:00 ] ::1 /news%20release%20sysstem%20created%20by%20wzx/index.php/Admin/News/__PUBlic__asset/img/avatar.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000560s ]
+
+[ 2018-12-18T20:29:20+08:00 ] ::1 /news%20release%20sysstem%20created%20by%20wzx/index.php/Admin/News/newsitem/newsid/7.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000324s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000459s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000485s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0188s ]
+SQL: SELECT * FROM `news` WHERE `News_ID` = '7'  [ RunTime:0.0081s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000038s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000063s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007112s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007141s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000183s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000200s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000442s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000463s ]
+
+[ 2018-12-18T20:29:22+08:00 ] ::1 /news%20release%20sysstem%20created%20by%20wzx/index.php/Admin/News/newslist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000361s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000563s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000607s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0381s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `news` LIMIT 1   [ RunTime:0.0081s ]
+SQL: SELECT * FROM `news` ORDER BY News_ID DESC LIMIT 0,9   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000083s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000139s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014749s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014803s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000416s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000457s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001015s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001067s ]
+
+[ 2018-12-18T20:29:22+08:00 ] ::1 /news%20release%20sysstem%20created%20by%20wzx/index.php/Admin/News/__PUBlic__asset/img/avatar.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000612s ]
+
+[ 2018-12-18T20:29:42+08:00 ] ::1 /news%20release%20sysstem%20created%20by%20wzx/index.php/Admin/News/newslist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000328s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000463s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000490s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0275s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `news` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `news` ORDER BY News_ID DESC LIMIT 0,9   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000061s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007415s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007453s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000329s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000369s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000980s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001031s ]
+
+[ 2018-12-18T20:29:42+08:00 ] ::1 /news%20release%20sysstem%20created%20by%20wzx/index.php/Admin/News/__PUBlic__asset/img/avatar.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000668s ]
+
+[ 2018-12-18T20:30:37+08:00 ] ::1 /news%20release%20sysstem%20created%20by%20wzx/index.php/Admin/News/newslist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000852s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001338s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001420s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0353s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `news` LIMIT 1   [ RunTime:0.0104s ]
+SQL: SELECT * FROM `news` ORDER BY News_ID DESC LIMIT 0,9   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000065s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000133s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013990s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014047s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000543s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000592s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001095s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001165s ]
+
+[ 2018-12-18T20:30:37+08:00 ] ::1 /news%20release%20sysstem%20created%20by%20wzx/index.php/Admin/News/__PUBlic__asset/img/avatar.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000602s ]
+
+[ 2018-12-18T20:31:54+08:00 ] ::1 /news%20release%20sysstem%20created%20by%20wzx/index.php/Admin/News/newslist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000822s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000547s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000577s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0501s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `news` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `news` ORDER BY News_ID DESC LIMIT 0,9   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000053s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000097s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010041s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010083s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000383s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000414s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000752s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000784s ]
+
+[ 2018-12-18T20:31:54+08:00 ] ::1 /news%20release%20sysstem%20created%20by%20wzx/index.php/Admin/News/__PUBlic__asset/img/avatar.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000480s ]
+
+[ 2018-12-18T20:31:56+08:00 ] ::1 /news%20release%20sysstem%20created%20by%20wzx/index.php/Admin/News/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000346s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000708s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000757s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000076s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.184022s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.184062s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000350s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000379s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000880s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000935s ]
+
+[ 2018-12-18T20:32:02+08:00 ] ::1 /news%20release%20sysstem%20created%20by%20wzx/index.php/Admin/News/useredit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000357s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000593s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000634s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0832s ]
+SQL: SELECT * FROM `user` WHERE `userid` = ''  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000066s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.187885s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.187917s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000179s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000195s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000451s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000471s ]
+
+[ 2018-12-18T20:32:02+08:00 ] ::1 /news%20release%20sysstem%20created%20by%20wzx/index.php/Admin/News/js/Confim.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000345s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000609s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000651s ]
+ERR: 非法操作:js
+
+[ 2018-12-18T20:32:06+08:00 ] ::1 /news%20release%20sysstem%20created%20by%20wzx/index.php/Admin/News/newslist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000301s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000471s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000505s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0789s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `news` LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `news` ORDER BY News_ID DESC LIMIT 0,9   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000294s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000399s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023553s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023636s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000850s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000943s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001665s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001769s ]
+
+[ 2018-12-18T20:32:06+08:00 ] ::1 /news%20release%20sysstem%20created%20by%20wzx/index.php/Admin/News/__PUBlic__asset/img/avatar.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000306s ]
+
+[ 2018-12-18T20:32:35+08:00 ] ::1 /news%20release%20sysstem%20created%20by%20wzx/index.php/Admin/News/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000259s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000369s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000390s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000102s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026241s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026266s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000182s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000207s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001082s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001196s ]
+
+[ 2018-12-18T20:32:38+08:00 ] ::1 /news%20release%20sysstem%20created%20by%20wzx/index.php/Admin/News/newslist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000380s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000561s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000588s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0295s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `news` LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `news` ORDER BY News_ID DESC LIMIT 0,9   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000114s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000205s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.053827s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.053870s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000378s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000401s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000658s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000685s ]
+
+[ 2018-12-18T20:32:38+08:00 ] ::1 /news%20release%20sysstem%20created%20by%20wzx/index.php/Admin/News/__PUBlic__asset/img/avatar.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000318s ]
+
+[ 2018-12-18T20:33:23+08:00 ] ::1 /news%20release%20sysstem%20created%20by%20wzx/index.php/Admin/News/newsupload.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000480s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000487s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000515s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000197s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000393s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038184s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038220s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000474s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000551s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001083s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001182s ]
+
+[ 2018-12-18T20:34:16+08:00 ] ::1 /news%20release%20sysstem%20created%20by%20wzx/index.php/Admin/News/newsupload.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000326s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000686s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000737s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000070s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025226s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025259s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000188s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000206s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000813s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000853s ]
+
+[ 2018-12-18T20:34:19+08:00 ] ::1 /news%20release%20sysstem%20created%20by%20wzx/index.php/Admin/News/newslist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000323s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000448s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000472s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0518s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `news` LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `news` ORDER BY News_ID DESC LIMIT 0,9   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000131s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000227s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.058402s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.058451s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000325s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000353s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000754s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000786s ]
+
+[ 2018-12-18T20:34:19+08:00 ] ::1 /news%20release%20sysstem%20created%20by%20wzx/index.php/Admin/News/__PUBlic__asset/img/avatar.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000343s ]
+
+[ 2018-12-18T20:34:20+08:00 ] ::1 /news%20release%20sysstem%20created%20by%20wzx/index.php/Admin/News/newslist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000327s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000457s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000483s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0466s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `news` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `news` ORDER BY News_ID DESC LIMIT 0,9   [ RunTime:0.0205s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000059s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006615s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006641s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000173s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000190s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000495s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000516s ]
+
+[ 2018-12-18T20:34:20+08:00 ] ::1 /news%20release%20sysstem%20created%20by%20wzx/index.php/Admin/News/__PUBlic__asset/img/avatar.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000623s ]
+
+[ 2018-12-18T20:34:21+08:00 ] ::1 /news%20release%20sysstem%20created%20by%20wzx/index.php/Admin/News/newslist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000372s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000439s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000462s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0767s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `news` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `news` ORDER BY News_ID DESC LIMIT 0,9   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000058s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006659s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006688s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000174s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000191s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000448s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000467s ]
+
+[ 2018-12-18T20:34:21+08:00 ] ::1 /news%20release%20sysstem%20created%20by%20wzx/index.php/Admin/News/__PUBlic__asset/img/avatar.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000448s ]
+
+[ 2018-12-18T20:34:21+08:00 ] ::1 /news%20release%20sysstem%20created%20by%20wzx/index.php/Admin/News/newslist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000904s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000671s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000716s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0514s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `news` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `news` ORDER BY News_ID DESC LIMIT 0,9   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000059s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006696s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006721s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000178s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000194s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000447s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000466s ]
+
+[ 2018-12-18T20:34:21+08:00 ] ::1 /news%20release%20sysstem%20created%20by%20wzx/index.php/Admin/News/__PUBlic__asset/img/avatar.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000481s ]
+
+[ 2018-12-18T20:34:37+08:00 ] ::1 /news%20release%20sysstem%20created%20by%20wzx/index.php/Admin/News/newslist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000331s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000466s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000492s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0532s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `news` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `news` ORDER BY News_ID DESC LIMIT 0,9   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000075s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027674s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027703s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000211s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000232s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000651s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000679s ]
+
+[ 2018-12-18T20:34:37+08:00 ] ::1 /news%20release%20sysstem%20created%20by%20wzx/index.php/Admin/News/__PUBlic__asset/img/avatar.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000522s ]
+
+[ 2018-12-18T20:34:46+08:00 ] ::1 /news%20release%20sysstem%20created%20by%20wzx/index.php/Admin/News/newslist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000391s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000932s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000992s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0631s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `news` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `news` ORDER BY News_ID DESC LIMIT 0,9   [ RunTime:0.0014s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000071s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027327s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027357s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000305s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000325s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000586s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000608s ]
+
+[ 2018-12-18T20:34:46+08:00 ] ::1 /news%20release%20sysstem%20created%20by%20wzx/index.php/Admin/News/__PUBlic__/asset/img/avatar.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000638s ]
+
+[ 2018-12-18T20:34:47+08:00 ] ::1 /news%20release%20sysstem%20created%20by%20wzx/index.php/Admin/News/newslist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000327s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000458s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000483s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0545s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `news` LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `news` ORDER BY News_ID DESC LIMIT 0,9   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000176s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000289s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019030s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019094s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000511s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000560s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001254s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001313s ]
+
+[ 2018-12-18T20:34:48+08:00 ] ::1 /news%20release%20sysstem%20created%20by%20wzx/index.php/Admin/News/__PUBlic__/asset/img/avatar.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001750s ]
+
+[ 2018-12-18T20:34:48+08:00 ] ::1 /news%20release%20sysstem%20created%20by%20wzx/index.php/Admin/News/newslist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000424s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000585s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000615s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `news` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `news` ORDER BY News_ID DESC LIMIT 0,9   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000136s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000237s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008282s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008308s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000178s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000193s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000420s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000437s ]
+
+[ 2018-12-18T20:34:48+08:00 ] ::1 /news%20release%20sysstem%20created%20by%20wzx/index.php/Admin/News/__PUBlic__/asset/img/avatar.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000366s ]
+
+[ 2018-12-18T20:35:02+08:00 ] ::1 /news%20release%20sysstem%20created%20by%20wzx/index.php/Admin/News/newslist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000334s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000548s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000575s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0072s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `news` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `news` ORDER BY News_ID DESC LIMIT 0,9   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000037s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000061s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.077109s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.077136s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000246s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000262s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000512s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000530s ]
+
+[ 2018-12-18T20:35:02+08:00 ] ::1 /news%20release%20sysstem%20created%20by%20wzx/index.php/Admin/News/__PUBlic__Admin/asset/img/avatar.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000506s ]
+
+[ 2018-12-18T20:35:10+08:00 ] ::1 /news%20release%20sysstem%20created%20by%20wzx/index.php/Admin/News/newslist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000300s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000393s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000423s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `news` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `news` ORDER BY News_ID DESC LIMIT 0,9   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000037s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000059s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038301s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038340s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000365s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000392s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000760s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000824s ]
+
+[ 2018-12-18T20:35:10+08:00 ] ::1 /news%20release%20sysstem%20created%20by%20wzx/index.php/Admin/News/__PUBlic__/Admin/asset/img/avatar.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002166s ]
+
+[ 2018-12-18T20:35:36+08:00 ] ::1 /news%20release%20sysstem%20created%20by%20wzx/index.php/Admin/News/newslist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000129s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001657s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000680s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000750s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0132s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `news` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `news` ORDER BY News_ID DESC LIMIT 0,9   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000067s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007248s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007278s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000238s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000261s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000555s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000588s ]
+
+[ 2018-12-18T20:35:36+08:00 ] ::1 /news%20release%20sysstem%20created%20by%20wzx/index.php/Admin/News/__PUBlic__/Admin/asset/img/avatar.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000441s ]
+
+[ 2018-12-18T20:35:36+08:00 ] ::1 /news%20release%20sysstem%20created%20by%20wzx/index.php/Admin/News/newslist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000420s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000634s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `news` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `news` ORDER BY News_ID DESC LIMIT 0,9   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000038s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000065s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007673s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007709s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000202s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000218s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000420s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000438s ]
+
+[ 2018-12-18T20:35:36+08:00 ] ::1 /news%20release%20sysstem%20created%20by%20wzx/index.php/Admin/News/__PUBlic__/Admin/asset/img/avatar.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000311s ]
+
+[ 2018-12-18T20:35:37+08:00 ] ::1 /news%20release%20sysstem%20created%20by%20wzx/index.php/Admin/News/newslist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000307s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000440s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000465s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0116s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `news` LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `news` ORDER BY News_ID DESC LIMIT 0,9   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000097s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010065s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010114s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000689s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000799s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001690s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001735s ]
+
+[ 2018-12-18T20:35:37+08:00 ] ::1 /news%20release%20sysstem%20created%20by%20wzx/index.php/Admin/News/__PUBlic__/Admin/asset/img/avatar.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000684s ]
+
+[ 2018-12-18T20:35:37+08:00 ] ::1 /news%20release%20sysstem%20created%20by%20wzx/index.php/Admin/News/newslist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000506s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000483s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000511s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0551s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `news` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `news` ORDER BY News_ID DESC LIMIT 0,9   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000062s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000093s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018331s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018358s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000197s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000213s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000426s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000444s ]
+
+[ 2018-12-18T20:35:37+08:00 ] ::1 /news%20release%20sysstem%20created%20by%20wzx/index.php/Admin/News/__PUBlic__/Admin/asset/img/avatar.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000316s ]
+
+[ 2018-12-18T20:36:37+08:00 ] ::1 /news%20release%20sysstem%20created%20by%20wzx/index.php/Admin/News/newslist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000333s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000514s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000547s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0103s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `news` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `news` ORDER BY News_ID DESC LIMIT 0,9   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000048s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000079s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027138s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027169s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000240s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000270s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000753s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000786s ]
+
+[ 2018-12-18T20:36:37+08:00 ] ::1 /news%20release%20sysstem%20created%20by%20wzx/index.php/Admin/News/newslist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000437s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000432s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000459s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0013s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `news` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `news` ORDER BY News_ID DESC LIMIT 0,9   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000059s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007388s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007523s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000856s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000909s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000449s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000467s ]
+
+[ 2018-12-18T20:36:39+08:00 ] ::1 /news%20release%20sysstem%20created%20by%20wzx/index.php/Admin/News/newslist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000315s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000464s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000491s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `news` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `news` ORDER BY News_ID DESC LIMIT 0,9   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000045s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000080s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009952s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009992s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000320s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000353s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000729s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000766s ]
+
+[ 2018-12-18T20:36:41+08:00 ] ::1 /news%20release%20sysstem%20created%20by%20wzx/index.php/Admin/News/newsitem.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000404s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000757s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000821s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0203s ]
+SQL: SELECT * FROM `news` WHERE `News_ID` = ''  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000085s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.044810s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044866s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000195s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000213s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000643s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000668s ]
+
+[ 2018-12-18T20:36:42+08:00 ] ::1 /news%20release%20sysstem%20created%20by%20wzx/index.php/Admin/News/newslist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000353s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000485s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000517s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0357s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `news` LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `news` ORDER BY News_ID DESC LIMIT 0,9   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000060s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006476s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006501s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000219s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000246s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000420s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000439s ]
+
+[ 2018-12-18T20:36:45+08:00 ] ::1 /news%20release%20sysstem%20created%20by%20wzx/index.php/Admin/News/newsupload.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000327s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000455s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000481s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000077s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022993s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023021s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000173s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000189s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000680s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000727s ]
+
+[ 2018-12-18T20:46:50+08:00 ] ::1 /news%20release%20sysstem%20created%20by%20wzx/index.php/Admin/News/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000265s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000434s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000456s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000074s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.113490s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.113532s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000234s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000253s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000653s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000693s ]
+
+[ 2018-12-18T20:46:53+08:00 ] ::1 /news%20release%20sysstem%20created%20by%20wzx/index.php/Admin/News/newsitem.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000464s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000398s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000421s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0152s ]
+SQL: SELECT * FROM `news` WHERE `News_ID` = ''  [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000133s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000233s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.061356s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.061404s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000340s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000370s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000732s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000762s ]
+
+[ 2018-12-18T20:46:54+08:00 ] ::1 /news%20release%20sysstem%20created%20by%20wzx/index.php/Admin/News/newslist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000465s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000448s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000472s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `news` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `news` ORDER BY News_ID DESC LIMIT 0,9   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000067s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000114s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029018s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029045s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000173s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000189s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000439s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000456s ]
+
+[ 2018-12-18T20:47:41+08:00 ] ::1 /news%20release%20sysstem%20created%20by%20wzx/index.php/Admin/News/newslist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000328s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000489s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000518s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0086s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `news` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `news` ORDER BY News_ID DESC LIMIT 0,9   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000093s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032364s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032394s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000214s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000233s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000589s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000611s ]
+
+[ 2018-12-18T21:45:06+08:00 ] ::1 /news%20release%20sysstem%20created%20by%20wzx/index.php/Admin/News/newsupload.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000368s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000570s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000597s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000105s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000211s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.258587s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.258639s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000665s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000708s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002308s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002384s ]
+
+[ 2018-12-18T22:03:08+08:00 ] ::1 /news%20release%20sysstem%20created%20by%20wzx/index.php/Admin/News/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000426s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000450s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000484s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000078s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.089126s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.089158s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000212s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000230s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000971s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001025s ]
+
+[ 2018-12-18T22:03:12+08:00 ] ::1 /news%20release%20sysstem%20created%20by%20wzx/index.php/Admin/News/%7BU:('Home/User/logout')%7D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000301s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000395s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000419s ]
+ERR: 非法操作:{U:('Home
+
+[ 2018-12-18T22:03:29+08:00 ] ::1 /news%20release%20sysstem%20created%20by%20wzx/index.php/Admin/News/%7BU:('Home/User/logout')%7D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000434s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000488s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000520s ]
+ERR: 非法操作:{U:('Home
+
+[ 2018-12-18T22:03:34+08:00 ] ::1 /news%20release%20sysstem%20created%20by%20wzx/index.php/Admin/News/%7BU:('Home/User/logout')%7D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000333s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000471s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000497s ]
+ERR: 非法操作:{U:('Home
+
+[ 2018-12-18T22:03:37+08:00 ] ::1 /news%20release%20sysstem%20created%20by%20wzx/index.php/Admin/News/%7BU:('Home/User/logout')%7D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000261s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000427s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000448s ]
+ERR: 非法操作:{U:('Home
+
+[ 2018-12-18T22:03:42+08:00 ] ::1 /news%20release%20sysstem%20created%20by%20wzx/index.php/Admin/News/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000327s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000460s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000485s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000139s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000246s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035870s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035897s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000171s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000187s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001570s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001816s ]
+
+[ 2018-12-18T22:04:14+08:00 ] ::1 /news%20release%20sysstem%20created%20by%20wzx/index.php/Admin/News/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000387s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000472s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000497s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000084s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039786s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039975s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001262s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001345s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001075s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001129s ]
+
+[ 2018-12-18T22:04:55+08:00 ] ::1 /news%20release%20sysstem%20created%20by%20wzx/index.php/Admin/News/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000651s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000397s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000420s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000060s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026300s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026330s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000229s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000259s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000736s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000779s ]
+
+[ 2018-12-18T22:06:41+08:00 ] ::1 /news%20release%20sysstem%20created%20by%20wzx/index.php/Admin/News/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000269s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000394s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000417s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000065s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000090s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027888s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027915s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000192s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000209s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000746s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000783s ]
+
+[ 2018-12-18T22:06:44+08:00 ] ::1 /news%20release%20sysstem%20created%20by%20wzx/index.php/Admin/News/newslist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000330s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000485s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000510s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0338s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `news` LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `news` ORDER BY News_ID DESC LIMIT 0,9   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000138s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000234s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.064878s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.064938s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000391s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000427s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000957s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000999s ]
+
+[ 2018-12-18T22:07:52+08:00 ] ::1 /news%20release%20sysstem%20created%20by%20wzx/index.php/Admin/News/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000267s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000377s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000398s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000080s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030191s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030217s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000178s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000194s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000496s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000525s ]
+
+[ 2018-12-18T22:08:12+08:00 ] ::1 /news%20release%20sysstem%20created%20by%20wzx/index.php/Admin/News/userlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000338s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001439s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001509s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0080s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `user` ORDER BY userid DESC LIMIT 0,9   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000085s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000234s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.041452s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041487s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000262s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000285s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000898s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000946s ]
+
+[ 2018-12-18T22:11:13+08:00 ] ::1 /news%20release%20sysstem%20created%20by%20wzx/index.php/Admin/News/newslist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000365s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000558s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000583s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0171s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `news` LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `news` ORDER BY News_ID DESC LIMIT 0,9   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000100s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000157s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.054395s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.054439s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000358s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000383s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000786s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000813s ]
+
+[ 2018-12-18T22:11:15+08:00 ] ::1 /news%20release%20sysstem%20created%20by%20wzx/index.php/Admin/News/delnews/newsid/7.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000265s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000392s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000416s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0252s ]
+ERR: Call to a member function delete() on boolean
+
+[ 2018-12-18T22:17:10+08:00 ] ::1 /news%20release%20sysstem%20created%20by%20wzx/index.php/Admin/News/newslist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000415s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000476s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000499s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0473s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `news` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `news` ORDER BY News_ID DESC LIMIT 0,9   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000079s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031547s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031578s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000306s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000327s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000590s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000612s ]
+
+[ 2018-12-18T22:17:36+08:00 ] ::1 /news%20release%20sysstem%20created%20by%20wzx/index.php/Admin/News/newslist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000302s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000460s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000481s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0463s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `news` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `news` ORDER BY News_ID DESC LIMIT 0,9   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000038s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000063s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028021s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028049s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000252s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000270s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000514s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000534s ]
+
+[ 2018-12-18T22:17:45+08:00 ] ::1 /news%20release%20sysstem%20created%20by%20wzx/index.php/Admin/News/newslist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000324s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000458s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000486s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0365s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `news` LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `news` ORDER BY News_ID DESC LIMIT 0,9   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000149s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000267s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.059189s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.059259s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000351s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000384s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000727s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000768s ]
+
+[ 2018-12-18T22:17:47+08:00 ] ::1 /news%20release%20sysstem%20created%20by%20wzx/index.php/Admin/News/delnews/newsid/7.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000338s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000453s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000480s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0378s ]
+ERR: Call to a member function delete() on boolean
+
+[ 2018-12-18T22:32:22+08:00 ] ::1 /news%20release%20sysstem%20created%20by%20wzx/index.php/Admin/News/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000276s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000442s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000470s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000054s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000090s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.065726s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.065756s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000194s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000211s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000561s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000590s ]
+
+[ 2018-12-18T22:32:28+08:00 ] ::1 /news%20release%20sysstem%20created%20by%20wzx/index.php/Admin/News/newslist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000328s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000474s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000504s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0812s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `news` LIMIT 1   [ RunTime:0.0263s ]
+SQL: SELECT * FROM `news` ORDER BY News_ID DESC LIMIT 0,9   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000076s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000135s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.043034s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043071s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000250s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000283s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000449s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000473s ]
+
+[ 2018-12-18T22:32:33+08:00 ] ::1 /news%20release%20sysstem%20created%20by%20wzx/index.php/Admin/News/delnews/newsid/7.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000345s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000760s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000825s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0543s ]
+ERR: Call to a member function delete() on boolean
+
+[ 2018-12-18T22:36:19+08:00 ] ::1 /news%20release%20sysstem%20created%20by%20wzx/index.php/Admin/News/newslist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000652s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000511s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000536s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0854s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `news` LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `news` ORDER BY News_ID DESC LIMIT 0,9   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000126s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000205s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.075455s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.075516s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000406s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000430s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000621s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000663s ]
+
+[ 2018-12-18T22:36:23+08:00 ] ::1 /news%20release%20sysstem%20created%20by%20wzx/index.php/Admin/News/delnews/newsid/7.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000406s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000502s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000531s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0636s ]
+ERR: Call to a member function where() on boolean
+
+[ 2018-12-18T22:37:02+08:00 ] ::1 /news%20release%20sysstem%20created%20by%20wzx/index.php/Admin/News/newslist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000578s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000923s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0828s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `news` LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `news` ORDER BY News_ID DESC LIMIT 0,9   [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000074s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000121s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028985s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029059s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000527s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000559s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000884s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000920s ]
+
+[ 2018-12-18T22:37:04+08:00 ] ::1 /news%20release%20sysstem%20created%20by%20wzx/index.php/Admin/News/delnews/newsid/7.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000359s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000525s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000557s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.2856s ]
+ERR: Call to a member function where() on boolean
+
+[ 2018-12-18T22:38:04+08:00 ] ::1 /news%20release%20sysstem%20created%20by%20wzx/index.php/Admin/News/newslist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000336s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000456s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000482s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0272s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `news` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `news` ORDER BY News_ID DESC LIMIT 0,9   [ RunTime:0.0112s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000062s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007794s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007857s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001298s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001373s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001398s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001486s ]
+
+[ 2018-12-18T22:38:06+08:00 ] ::1 /news%20release%20sysstem%20created%20by%20wzx/index.php/Admin/News/delnews/newsid/7.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000934s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000423s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000447s ]
+NOTIC: [2] Use of undefined constant news_id - assumed 'news_id' (this will throw an Error in a future version of PHP) G:\php123\Apache24\htdocs\news release sysstem created by wzx\Application\Admin\Controller\NewsController.class.php 第 99 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000622s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000663s ]
+
+[ 2018-12-18T22:38:19+08:00 ] ::1 /news%20release%20sysstem%20created%20by%20wzx/index.php/Admin/News/delnews/newsid/7.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000309s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000457s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000483s ]
+NOTIC: [2] Use of undefined constant news_id - assumed 'news_id' (this will throw an Error in a future version of PHP) G:\php123\Apache24\htdocs\news release sysstem created by wzx\Application\Admin\Controller\NewsController.class.php 第 99 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001182s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001239s ]
+
+[ 2018-12-18T22:38:42+08:00 ] ::1 /news%20release%20sysstem%20created%20by%20wzx/index.php/Admin/News/newsitem/newsid/7.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000580s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000884s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000931s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0238s ]
+SQL: SELECT * FROM `news` WHERE `News_ID` = '7'  [ RunTime:0.0768s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000057s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000098s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.460637s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.460698s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000351s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000383s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000965s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001025s ]
+
+[ 2018-12-18T22:38:46+08:00 ] ::1 /news%20release%20sysstem%20created%20by%20wzx/index.php/Admin/News/delnews/newsid/7.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000354s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000584s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000613s ]
+NOTIC: [2] Use of undefined constant news_id - assumed 'news_id' (this will throw an Error in a future version of PHP) G:\php123\Apache24\htdocs\news release sysstem created by wzx\Application\Admin\Controller\NewsController.class.php 第 99 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000588s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000614s ]
+
+[ 2018-12-18T22:39:27+08:00 ] ::1 /news%20release%20sysstem%20created%20by%20wzx/index.php/Admin/News/delnews/newsid/7.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000700s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000551s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000589s ]
+NOTIC: [2] Use of undefined constant news_id - assumed 'news_id' (this will throw an Error in a future version of PHP) G:\php123\Apache24\htdocs\news release sysstem created by wzx\Application\Admin\Controller\NewsController.class.php 第 99 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000535s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000560s ]
+
+[ 2018-12-18T22:39:29+08:00 ] ::1 /news%20release%20sysstem%20created%20by%20wzx/index.php/Admin/News/delnews/newsid/7.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000267s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000373s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000394s ]
+NOTIC: [2] Use of undefined constant news_id - assumed 'news_id' (this will throw an Error in a future version of PHP) G:\php123\Apache24\htdocs\news release sysstem created by wzx\Application\Admin\Controller\NewsController.class.php 第 99 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000753s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000802s ]
+
+[ 2018-12-18T22:40:02+08:00 ] ::1 /news%20release%20sysstem%20created%20by%20wzx/index.php/Admin/News/newslist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000427s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000760s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000806s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0384s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `news` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `news` ORDER BY News_ID DESC LIMIT 0,9   [ RunTime:0.0101s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000098s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010175s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010205s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000356s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000383s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000573s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000596s ]
+
+[ 2018-12-18T22:40:04+08:00 ] ::1 /news%20release%20sysstem%20created%20by%20wzx/index.php/Admin/News/delnews/newsid/7.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000513s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000734s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000789s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000811s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000893s ]
+
+[ 2018-12-18T22:40:41+08:00 ] ::1 /news%20release%20sysstem%20created%20by%20wzx/index.php/Admin/News/newslist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000313s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000455s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000481s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0277s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `news` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `news` ORDER BY News_ID DESC LIMIT 0,9   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000083s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.082051s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.082083s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000314s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000339s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000576s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000608s ]
+
+[ 2018-12-18T22:40:43+08:00 ] ::1 /news%20release%20sysstem%20created%20by%20wzx/index.php/Admin/News/delnews/newsid/7.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000292s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000397s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000420s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0094s ]
+ERR: Call to a member function where() on boolean
+
+[ 2018-12-18T22:41:08+08:00 ] ::1 /news%20release%20sysstem%20created%20by%20wzx/index.php/Admin/News/delnews/newsid/7.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000356s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000517s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000541s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0875s ]
+ERR: Call to a member function where() on boolean
+
+[ 2018-12-18T22:43:11+08:00 ] ::1 /news%20release%20sysstem%20created%20by%20wzx/index.php/Admin/News/newslist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000361s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000589s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000620s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0828s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `news` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `news` ORDER BY News_ID DESC LIMIT 0,9   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000085s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012258s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012392s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001897s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001948s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000881s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000923s ]
+
+[ 2018-12-18T22:43:13+08:00 ] ::1 /news%20release%20sysstem%20created%20by%20wzx/index.php/Admin/News/delnews/newsid/7.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000540s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000470s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000505s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0709s ]
+ERR: Call to a member function where() on boolean
+
+[ 2018-12-18T22:47:17+08:00 ] ::1 /news%20release%20sysstem%20created%20by%20wzx/index.php/Admin/News/delnews/newsid/7.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000294s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000454s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000476s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0528s ]
+ERR: Call to a member function where() on boolean
+
+[ 2018-12-18T22:47:20+08:00 ] ::1 /news%20release%20sysstem%20created%20by%20wzx/index.php/Admin/News/delnews/newsid/7.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000341s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000543s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000580s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0654s ]
+ERR: Call to a member function where() on boolean
+
+[ 2018-12-18T22:47:38+08:00 ] ::1 /news%20release%20sysstem%20created%20by%20wzx/index.php/Admin/News/newslist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000145s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008872s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008921s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.3859s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `news` LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `news` ORDER BY News_ID DESC LIMIT 0,9   [ RunTime:0.0764s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000090s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000166s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.314620s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.314697s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000890s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000947s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002505s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002641s ]
+
+[ 2018-12-18T22:47:38+08:00 ] ::1 /news%20release%20sysstem%20created%20by%20wzx/index.php/Admin/News/delnews/newsid/7.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000279s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000733s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000779s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0872s ]
+ERR: Call to a member function where() on boolean
+
+[ 2018-12-18T22:47:40+08:00 ] ::1 /news%20release%20sysstem%20created%20by%20wzx/index.php/Admin/News/newslist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000302s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000445s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000470s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0505s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `news` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `news` ORDER BY News_ID DESC LIMIT 0,9   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000037s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000063s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007952s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007977s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000235s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000251s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000464s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000492s ]
+
+[ 2018-12-18T22:49:22+08:00 ] ::1 /news%20release%20sysstem%20created%20by%20wzx/index.php/Admin/News/newslist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000359s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000564s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000590s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0560s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `news` LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `news` ORDER BY News_ID DESC LIMIT 0,9   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000125s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000203s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024857s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024933s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000844s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000900s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001579s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001638s ]
+
+[ 2018-12-18T22:49:24+08:00 ] ::1 /news%20release%20sysstem%20created%20by%20wzx/index.php/Admin/News/delnews/newsid/7.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000314s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000526s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000557s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0445s ]
+ERR: Call to a member function where() on boolean
+
+[ 2018-12-18T22:50:00+08:00 ] ::1 /news%20release%20sysstem%20created%20by%20wzx/index.php/Admin/News/newslist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000355s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000540s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000565s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0562s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `news` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `news` ORDER BY News_ID DESC LIMIT 0,9   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000062s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000107s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030221s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030315s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000320s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000349s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000572s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000594s ]
+
+[ 2018-12-18T22:50:02+08:00 ] ::1 /news%20release%20sysstem%20created%20by%20wzx/index.php/Admin/News/delnews/newsid/7.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000393s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000550s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000587s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0472s ]
+ERR: Call to a member function delete() on boolean
+
+[ 2018-12-18T22:50:49+08:00 ] ::1 /news%20release%20sysstem%20created%20by%20wzx/index.php/Admin/News/delnews/newsid/7.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000439s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000470s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0570s ]
+ERR: Call to a member function delete() on boolean
+
+[ 2018-12-18T22:50:52+08:00 ] ::1 /news%20release%20sysstem%20created%20by%20wzx/index.php/Admin/News/newslist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000322s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000557s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000597s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0864s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `news` LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `news` ORDER BY News_ID DESC LIMIT 0,9   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000094s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000173s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018996s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019078s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000733s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000805s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001396s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001469s ]
+
+[ 2018-12-18T22:50:54+08:00 ] ::1 /news%20release%20sysstem%20created%20by%20wzx/index.php/Admin/News/delnews/newsid/7.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000443s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000672s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000716s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.1568s ]
+ERR: Call to a member function delete() on boolean
+
+[ 2018-12-18T22:51:12+08:00 ] ::1 /news%20release%20sysstem%20created%20by%20wzx/index.php/Admin/News/delnews/newsid/7.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000326s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000468s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000495s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0451s ]
+NOTIC: [4096] Object of class Admin\Model\NewsModel could not be converted to string G:\php123\Apache24\htdocs\news release sysstem created by wzx\Application\Admin\Controller\NewsController.class.php 第 100 行.
+ERR: Call to a member function delete() on array
+
+[ 2018-12-18T22:51:18+08:00 ] ::1 /news%20release%20sysstem%20created%20by%20wzx/index.php/Admin/News/newslist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000410s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000465s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000493s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0561s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `news` LIMIT 1   [ RunTime:0.0793s ]
+SQL: SELECT * FROM `news` ORDER BY News_ID DESC LIMIT 0,9   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000069s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000135s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011522s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011569s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000421s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000459s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000858s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000908s ]
+
+[ 2018-12-18T22:51:19+08:00 ] ::1 /news%20release%20sysstem%20created%20by%20wzx/index.php/Admin/News/delnews/newsid/7.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000301s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000469s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000496s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0549s ]
+NOTIC: [4096] Object of class Admin\Model\NewsModel could not be converted to string G:\php123\Apache24\htdocs\news release sysstem created by wzx\Application\Admin\Controller\NewsController.class.php 第 100 行.
+ERR: Call to a member function delete() on array
+
+[ 2018-12-18T22:51:45+08:00 ] ::1 /news%20release%20sysstem%20created%20by%20wzx/index.php/Admin/News/delnews/newsid/7.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000326s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000437s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000462s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0571s ]
+SQL: DELETE FROM `news` WHERE `News_ID` = 7 [ RunTime:0.8214s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000021s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000047s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.102633s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.102833s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000842s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000980s ]
+
+[ 2018-12-18T22:51:47+08:00 ] ::1 /news%20release%20sysstem%20created%20by%20wzx/index.php/Admin/News/newslist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000362s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000676s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000717s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.3460s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `news` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `news` ORDER BY News_ID DESC LIMIT 0,9   [ RunTime:0.0097s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000071s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009804s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009845s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000304s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000322s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000604s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000626s ]
+
+[ 2018-12-18T22:51:56+08:00 ] ::1 /news%20release%20sysstem%20created%20by%20wzx/index.php/Admin/News/newsupload.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000385s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000873s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000927s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000067s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.057278s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.057329s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000499s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000542s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000996s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001049s ]
+
+[ 2018-12-18T22:52:13+08:00 ] ::1 /news%20release%20sysstem%20created%20by%20wzx/index.php/Admin/News/newsupload.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000861s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001185s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001265s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0487s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000037s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000081s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008576s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008633s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000383s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000417s ]
+
+[ 2018-12-18T22:52:16+08:00 ] ::1 /news%20release%20sysstem%20created%20by%20wzx/index.php/Admin/News/newsupload.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000352s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000494s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000525s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000072s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.056836s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.056867s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000209s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000227s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000664s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000706s ]
+
+[ 2018-12-18T22:53:54+08:00 ] ::1 /news%20release%20sysstem%20created%20by%20wzx/index.php/Admin/News/newsupload.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000289s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001100s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001229s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.1421s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000031s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000076s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011919s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011977s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000304s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000336s ]
+
+[ 2018-12-18T22:53:57+08:00 ] ::1 /news%20release%20sysstem%20created%20by%20wzx/index.php/Admin/News/newsupload.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000467s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000792s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000841s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000181s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000377s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039273s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039374s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001730s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001777s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000990s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001041s ]
+
+[ 2018-12-18T22:55:21+08:00 ] ::1 /news%20release%20sysstem%20created%20by%20wzx/index.php/Admin/News/newsupload.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000358s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000522s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000548s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0418s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000052s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000115s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014521s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000780s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000837s ]
+
+[ 2018-12-18T22:55:25+08:00 ] ::1 /news%20release%20sysstem%20created%20by%20wzx/index.php/Admin/News/newsupload.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000481s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000596s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000632s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000099s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024642s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024672s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000281s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000303s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001834s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001922s ]
+
+[ 2018-12-18T22:59:06+08:00 ] ::1 /news%20release%20sysstem%20created%20by%20wzx/index.php/Admin/News/newsupload.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000465s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000481s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000505s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0426s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given G:\php123\Apache24\htdocs\news release sysstem created by wzx\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: INSERT INTO `news` (`News_Title`,`News_Content`,`News_Type`,`News_Img`,`News_smlimg`,`News_Auth`) VALUES ('wzx123','wzx123','娱乐','Add/2018-12-18/5c190b397c80b.jpg','Add/2018-12-18/sml5c190b397c80b.jpg','wzx123') [ RunTime:0.1373s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000059s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000129s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.052865s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.052928s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000437s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000466s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.043239s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025227s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.000746s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000007s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.025545s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000928s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2018-12-18T22:59:07+08:00 ] ::1 /news%20release%20sysstem%20created%20by%20wzx/index.php/Admin/News/newsupload.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000448s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000450s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000478s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000094s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027398s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027442s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000320s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000355s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000938s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001016s ]
+
+[ 2018-12-18T22:59:27+08:00 ] ::1 /news%20release%20sysstem%20created%20by%20wzx/index.php/Admin/News/newslist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000355s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000612s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000664s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0103s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `news` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `news` ORDER BY News_ID DESC LIMIT 0,9   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000037s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000060s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026084s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026112s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000177s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000196s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000462s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000481s ]
+
+[ 2018-12-18T22:59:28+08:00 ] ::1 /news%20release%20sysstem%20created%20by%20wzx/index.php/Admin/News/newsitem/newsid/8.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000540s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000760s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000811s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0238s ]
+SQL: SELECT * FROM `news` WHERE `News_ID` = '8'  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000037s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000059s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024768s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024797s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000172s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000188s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000442s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000460s ]
+
+[ 2018-12-18T22:59:56+08:00 ] ::1 /news%20release%20sysstem%20created%20by%20wzx/index.php/Admin/News/newsitem/newsid/8.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000358s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000546s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000573s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0492s ]
+SQL: SELECT * FROM `news` WHERE `News_ID` = '8'  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000098s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000159s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019830s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019892s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000613s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000655s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001631s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001713s ]
+
+[ 2018-12-18T23:00:02+08:00 ] ::1 /news%20release%20sysstem%20created%20by%20wzx/index.php/Admin/News/newsitem.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000715s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001004s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001059s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.1343s ]
+SQL: SELECT * FROM `news` WHERE `News_ID` = ''  [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000101s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000162s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020321s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020386s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000315s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000351s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000754s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000790s ]
+
+[ 2018-12-18T23:00:04+08:00 ] ::1 /news%20release%20sysstem%20created%20by%20wzx/index.php/Admin/News/newslist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000476s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001466s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001568s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0381s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `news` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `news` ORDER BY News_ID DESC LIMIT 0,9   [ RunTime:0.0046s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000067s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006827s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006854s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000173s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000189s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000442s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000465s ]
+
+[ 2018-12-18T23:00:08+08:00 ] ::1 /news%20release%20sysstem%20created%20by%20wzx/index.php/Admin/News/delnews/newsid/8.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000550s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000771s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000836s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0007s ]
+SQL: DELETE FROM `news` WHERE `News_ID` = 8 [ RunTime:0.0601s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000020s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000044s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022368s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022406s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000225s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000245s ]
+
+[ 2018-12-18T23:00:08+08:00 ] ::1 /news%20release%20sysstem%20created%20by%20wzx/index.php/Admin/News/newlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000267s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000371s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000391s ]
+ERR: 非法操作:newlist
+
+[ 2018-12-18T23:00:18+08:00 ] ::1 /news%20release%20sysstem%20created%20by%20wzx/index.php/Admin/News/newslist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000317s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000468s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000494s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0156s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `news` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `news` ORDER BY News_ID DESC LIMIT 0,9   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000045s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000075s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008578s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008639s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000424s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000480s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000821s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000862s ]
+
+[ 2018-12-18T23:00:39+08:00 ] ::1 /news%20release%20sysstem%20created%20by%20wzx/index.php/Admin/News/newsupload.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000446s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000436s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000464s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000045s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000077s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031425s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031465s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000321s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000357s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000806s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000860s ]
+
+[ 2018-12-18T23:00:50+08:00 ] ::1 /news%20release%20sysstem%20created%20by%20wzx/index.php/Admin/News/newsupload.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000792s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001217s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001272s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0256s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given G:\php123\Apache24\htdocs\news release sysstem created by wzx\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: INSERT INTO `news` (`News_Title`,`News_Content`,`News_Type`,`News_Img`,`News_smlimg`,`News_Auth`) VALUES ('1231','wzx123','娱乐','/Add/2018-12-18/5c190ba1f34c5.jpg','/Add/2018-12-18/sml5c190ba1f34c5.jpg','wzx123') [ RunTime:0.1077s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000029s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000067s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006767s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006806s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000225s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000246s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.002938s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027518s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.000342s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000007s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.027639s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000784s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000834s ]
+
+[ 2018-12-18T23:00:51+08:00 ] ::1 /news%20release%20sysstem%20created%20by%20wzx/index.php/Admin/News/newsupload.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000528s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000836s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000892s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000086s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000157s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037747s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037781s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000277s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000381s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002600s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002725s ]
+
+[ 2018-12-18T23:00:54+08:00 ] ::1 /news%20release%20sysstem%20created%20by%20wzx/index.php/Admin/News/newslist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000669s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000488s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000517s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.1163s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `news` LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `news` ORDER BY News_ID DESC LIMIT 0,9   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000074s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000133s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022077s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022154s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000519s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000566s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000950s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000995s ]
+
+[ 2018-12-18T23:00:55+08:00 ] ::1 /news%20release%20sysstem%20created%20by%20wzx/index.php/Admin/News/newsitem/newsid/9.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000290s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000404s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000425s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `news` WHERE `News_ID` = '9'  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000045s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000074s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008588s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008615s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000169s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000186s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000410s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000444s ]
+
+[ 2018-12-18T23:00:58+08:00 ] ::1 /news%20release%20sysstem%20created%20by%20wzx/index.php/Admin/News/newslist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000335s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000528s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0386s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `news` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `news` ORDER BY News_ID DESC LIMIT 0,9   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000073s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007352s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007382s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000223s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000243s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000494s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000515s ]
+
+[ 2018-12-18T23:01:01+08:00 ] ::1 /news%20release%20sysstem%20created%20by%20wzx/index.php/Admin/News/delnews/newsid/9.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000314s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000463s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000488s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0380s ]
+SQL: DELETE FROM `news` WHERE `News_ID` = 9 [ RunTime:0.0696s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000124s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015313s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015408s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000627s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000681s ]
+
+[ 2018-12-18T23:01:01+08:00 ] ::1 /news%20release%20sysstem%20created%20by%20wzx/index.php/Admin/News/newslist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000913s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001261s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001330s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0210s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `news` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `news` ORDER BY News_ID DESC LIMIT 0,9   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000116s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000205s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018929s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018998s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000885s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000995s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001579s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001653s ]
+
+[ 2018-12-18T23:01:05+08:00 ] ::1 /news%20release%20sysstem%20created%20by%20wzx/index.php/Admin/News/newslist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000419s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000463s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000488s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `news` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `news` ORDER BY News_ID DESC LIMIT 0,9   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000094s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000155s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015530s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015589s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000461s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000505s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001062s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001110s ]
+
+[ 2018-12-18T23:01:08+08:00 ] ::1 /news%20release%20sysstem%20created%20by%20wzx/index.php/Admin/News/newsupload.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000498s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000582s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000611s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000075s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028108s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028140s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000289s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000308s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000780s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000824s ]
+
+[ 2018-12-18T23:11:50+08:00 ] ::1 /news%20release%20sysstem%20created%20by%20wzx/index.php/Admin/News/newsupload.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000467s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000696s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000731s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0222s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given G:\php123\Apache24\htdocs\news release sysstem created by wzx\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+ERR: 1406:Data too long for column 'News_Title' at row 1
+ [ SQL语句 ] : INSERT INTO `news` (`News_Title`,`News_Content`,`News_Type`,`News_Img`,`News_smlimg`,`News_Auth`) VALUES ('京东拟于后年投入运营无人大飞机','每年的618，都是京东领衔的电商价格大战，不过，今年618，京东已经不再把价格、营销当做卖点了。今年618，京东主打的是“黑科技”，更准确的说，应该算是“白科技”了，因为其中很多令人酷炫的技术和产品，即将在不久后实现商用，“飞”入寻常百姓家。
+
+　　“今年618是京东第15个生日，618已经成为一个象征着京东成长的符号。从今年开始，我们正式把618打造成为一次零售基础设施建设成果的大阅兵、一场创新零售科技的集中展示以及无界零售的深度实践”，在5月29日召开的JD CUBE 大会上，京东集团CMO徐雷表示。
+
+　　在这场阅兵式上，京东X事业部自主研发的续航1000公里的无人大飞机、L4无人重型卡车、JOY\'S智慧餐厅等黑科技集中亮相。京东集团副总裁、X事业部总裁肖军表示，“未来三年，京东将成为机器人产值、研发、应用规模全球前五的智慧创新型企业。我们还将设立产业基金，建立机器人产业集群，来带动整个智能机器人行业的发展”。
+
+　　重磅黑科技悉数亮相
+
+　　公开信息显示，X事业部成立于2016年5月份，前身是京东物流实验室，如今，其早已超越了物流范畴，成为京东向科技转型的先锋。“两年时间我们京东X事业部做了什么？第一个是无人机，我们的无人机跨过长江，跨过秦岭，从广西出发，进入广西、青海、海南……截止到现在，无人机总计飞行超过两万驾次，总里程达10万公里”，肖军透露。
+
+　　如今，历经一年多的攻关，京东无人机再度获得巨大技术突破。5月29日当天，JDY-800无人机首度亮相，翼展超过10米，具有全天候全自主飞行能力，巡航高度3000米，巡航速度超过200公里/小时，可连续飞行1000公里以上。起飞重量840公斤，能够携带5个标准立方的航空箱。“过去，大型无人机多是由传统的有人机，比如四座、两座有人机改造的，给货舱留出来的空间特别有限，一个将近一吨载重的飞机，货舱容积不到4个立方。而我们这款飞机从最开始就没有驾驶舱，是一架真正意义上用于物流货运的原生态的无人机”，肖军表示，“JDY-800将在今年618期间正式推出，并计划在2020年投入运营”。
+
+　　据记者了解，基于不同等级的物流网络需求，京东已自主研发出十几款不同类型的物流无人机。目前，京东正依托北京、西安两大研发中心，搭建无人机研发应用全产业链。
+
+　　除了天上飞的，地上跑的也隆重亮相——京东无人重型卡车。
+
+　　京东无人重卡是京东2016年成立的硅谷研发中心的最新成果之一，作为一款L4级别的自动驾驶无人重卡，其全长超过20米，已在美国完成了2400小时的测试。肖军表示，京东未来将建立基于L4级别的自动驾驶重型卡车物流网络，这些自动驾驶的重型卡车会承接北上广和京东七大区域中心在高速公路上面的物流，承担干线货运中转和长途运输任务。京东将在高速公路上建设无人卡车服务区，当无人卡车下高速进入城区前，可以进入无人卡车的服务站，由服务站内的司机完成城区内的驾驶。“我们预计2020年在国内完成商业化试运营的部署”。
+
+　　在最后一公里方面，肖军透露：“我们的无人车去年开始已在校园常态化运行，大家现在去人民大学、清华大学会看到一道美丽的风景线，就是一堆人追着我们无人车在跑，很多媒体朋友也经常去参观。今年618，京东的配送机器人将会在主城区上路，会在京东的发源地中关村地区进行配送，还会进入上地软件园进行配送。”
+
+　　作为京东最深的护城河，京东将依托无人科技打造全球首个空地一体智慧物流网络，该智慧网络由干线、支线与末端配送的无人机、无人车，智能终端，智能机场等一系列节点组成。
+
+　　向美团外卖上游挺进
+
+　　如今，已经没有什么可以拦住京东无人科技触角了。尽管在外卖领域，京东不与美团争锋，但是在外卖的上游领域——餐厅，京东可就当仁不让了。
+
+　　会上，京东还首度亮相了JOY\'S智慧餐厅。在视频演示中，机器人大厨可以实现点菜、做菜、传菜全程无人化，精确操控实现烹饪温度、时间、用料的标准化。传菜机器人则自带重力感应系统和智能避障技能，还可以自动优化传菜路径。
+
+　　“今年8月份大家会见到它的实物，它能把世界上最顶尖厨师所做的美味佳肴带给千家万户。现在我们正在跟八大菜系的大厨合作，研发适合用于机器烹饪的菜肴。预计到2020年，餐厅技术与独家菜谱将全面开放，全国加盟店可达1000家”，肖军表示。
+
+　　肖军还透露，京东X无人超市在全国的布局也已达到13家，拓展无界零售新场景的智能售货柜和智能药柜等产品正在布局中。“我们在天津生态城每个社区都铺了一个售药柜，可用24小时满足用户一些即时性的购药需求”。　　
+
+　　打造区块链全程溯源
+
+　　目前最火的区块链技术，京东已然成为其最大的应用场景，其运用区块链技术搭建了“京东区块链防伪追溯平台”，并联手品牌商、物流合作伙伴和第三方检测机构，建立起商品流通数据的可信网络。
+
+　　截至目前，京东已经成为世界上少数拥有大量区块链实际应用场景的企业，国内外合作品牌超过400家，11000多个重点商品已实现全程可追溯。
+
+　　举例来说，全球购的产品要漂洋过海跨越万里耗时多天才能送到客户手中，通过区块链防伪溯源和千里眼视频可视化项目，京东用户可以随时随地实时查看所购商品信息，掌握商品一步步靠近自己的动态信息。
+
+　　在一系列令人目不暇接的黑科技创新背后，也融入了京东的公益之举。据了解，从2017年底开始，“京东微工”项目与中国残疾人福利基金会合作，以宁夏为试点，招募残疾人从事人工智能领域的“数据标注”工作；京东金融也展开了“京东众智”项目，将AI数据标注与残疾朋友的碎片化时间联系在一起，并且建立了一整套的培训与审核机制。
+
+　　“京东希望科技不是冷冰冰的机器，而是能够让用户感受并享受有温度的科技创造的美好生活。” 京东集团副总裁、AI平台与研究部负责人周伯文表示。','科技','/Add/2018-12-18/5c190e36cac9b.jpg','/Add/2018-12-18/sml5c190e36cac9b.jpg','wzx123')
+ERR: 1406:Data too long for column 'News_Title' at row 1
+ [ SQL语句 ] : INSERT INTO `news` (`News_Title`,`News_Content`,`News_Type`,`News_Img`,`News_smlimg`,`News_Auth`) VALUES ('京东拟于后年投入运营无人大飞机','每年的618，都是京东领衔的电商价格大战，不过，今年618，京东已经不再把价格、营销当做卖点了。今年618，京东主打的是“黑科技”，更准确的说，应该算是“白科技”了，因为其中很多令人酷炫的技术和产品，即将在不久后实现商用，“飞”入寻常百姓家。
+
+　　“今年618是京东第15个生日，618已经成为一个象征着京东成长的符号。从今年开始，我们正式把618打造成为一次零售基础设施建设成果的大阅兵、一场创新零售科技的集中展示以及无界零售的深度实践”，在5月29日召开的JD CUBE 大会上，京东集团CMO徐雷表示。
+
+　　在这场阅兵式上，京东X事业部自主研发的续航1000公里的无人大飞机、L4无人重型卡车、JOY\'S智慧餐厅等黑科技集中亮相。京东集团副总裁、X事业部总裁肖军表示，“未来三年，京东将成为机器人产值、研发、应用规模全球前五的智慧创新型企业。我们还将设立产业基金，建立机器人产业集群，来带动整个智能机器人行业的发展”。
+
+　　重磅黑科技悉数亮相
+
+　　公开信息显示，X事业部成立于2016年5月份，前身是京东物流实验室，如今，其早已超越了物流范畴，成为京东向科技转型的先锋。“两年时间我们京东X事业部做了什么？第一个是无人机，我们的无人机跨过长江，跨过秦岭，从广西出发，进入广西、青海、海南……截止到现在，无人机总计飞行超过两万驾次，总里程达10万公里”，肖军透露。
+
+　　如今，历经一年多的攻关，京东无人机再度获得巨大技术突破。5月29日当天，JDY-800无人机首度亮相，翼展超过10米，具有全天候全自主飞行能力，巡航高度3000米，巡航速度超过200公里/小时，可连续飞行1000公里以上。起飞重量840公斤，能够携带5个标准立方的航空箱。“过去，大型无人机多是由传统的有人机，比如四座、两座有人机改造的，给货舱留出来的空间特别有限，一个将近一吨载重的飞机，货舱容积不到4个立方。而我们这款飞机从最开始就没有驾驶舱，是一架真正意义上用于物流货运的原生态的无人机”，肖军表示，“JDY-800将在今年618期间正式推出，并计划在2020年投入运营”。
+
+　　据记者了解，基于不同等级的物流网络需求，京东已自主研发出十几款不同类型的物流无人机。目前，京东正依托北京、西安两大研发中心，搭建无人机研发应用全产业链。
+
+　　除了天上飞的，地上跑的也隆重亮相——京东无人重型卡车。
+
+　　京东无人重卡是京东2016年成立的硅谷研发中心的最新成果之一，作为一款L4级别的自动驾驶无人重卡，其全长超过20米，已在美国完成了2400小时的测试。肖军表示，京东未来将建立基于L4级别的自动驾驶重型卡车物流网络，这些自动驾驶的重型卡车会承接北上广和京东七大区域中心在高速公路上面的物流，承担干线货运中转和长途运输任务。京东将在高速公路上建设无人卡车服务区，当无人卡车下高速进入城区前，可以进入无人卡车的服务站，由服务站内的司机完成城区内的驾驶。“我们预计2020年在国内完成商业化试运营的部署”。
+
+　　在最后一公里方面，肖军透露：“我们的无人车去年开始已在校园常态化运行，大家现在去人民大学、清华大学会看到一道美丽的风景线，就是一堆人追着我们无人车在跑，很多媒体朋友也经常去参观。今年618，京东的配送机器人将会在主城区上路，会在京东的发源地中关村地区进行配送，还会进入上地软件园进行配送。”
+
+　　作为京东最深的护城河，京东将依托无人科技打造全球首个空地一体智慧物流网络，该智慧网络由干线、支线与末端配送的无人机、无人车，智能终端，智能机场等一系列节点组成。
+
+　　向美团外卖上游挺进
+
+　　如今，已经没有什么可以拦住京东无人科技触角了。尽管在外卖领域，京东不与美团争锋，但是在外卖的上游领域——餐厅，京东可就当仁不让了。
+
+　　会上，京东还首度亮相了JOY\'S智慧餐厅。在视频演示中，机器人大厨可以实现点菜、做菜、传菜全程无人化，精确操控实现烹饪温度、时间、用料的标准化。传菜机器人则自带重力感应系统和智能避障技能，还可以自动优化传菜路径。
+
+　　“今年8月份大家会见到它的实物，它能把世界上最顶尖厨师所做的美味佳肴带给千家万户。现在我们正在跟八大菜系的大厨合作，研发适合用于机器烹饪的菜肴。预计到2020年，餐厅技术与独家菜谱将全面开放，全国加盟店可达1000家”，肖军表示。
+
+　　肖军还透露，京东X无人超市在全国的布局也已达到13家，拓展无界零售新场景的智能售货柜和智能药柜等产品正在布局中。“我们在天津生态城每个社区都铺了一个售药柜，可用24小时满足用户一些即时性的购药需求”。　　
+
+　　打造区块链全程溯源
+
+　　目前最火的区块链技术，京东已然成为其最大的应用场景，其运用区块链技术搭建了“京东区块链防伪追溯平台”，并联手品牌商、物流合作伙伴和第三方检测机构，建立起商品流通数据的可信网络。
+
+　　截至目前，京东已经成为世界上少数拥有大量区块链实际应用场景的企业，国内外合作品牌超过400家，11000多个重点商品已实现全程可追溯。
+
+　　举例来说，全球购的产品要漂洋过海跨越万里耗时多天才能送到客户手中，通过区块链防伪溯源和千里眼视频可视化项目，京东用户可以随时随地实时查看所购商品信息，掌握商品一步步靠近自己的动态信息。
+
+　　在一系列令人目不暇接的黑科技创新背后，也融入了京东的公益之举。据了解，从2017年底开始，“京东微工”项目与中国残疾人福利基金会合作，以宁夏为试点，招募残疾人从事人工智能领域的“数据标注”工作；京东金融也展开了“京东众智”项目，将AI数据标注与残疾朋友的碎片化时间联系在一起，并且建立了一整套的培训与审核机制。
+
+　　“京东希望科技不是冷冰冰的机器，而是能够让用户感受并享受有温度的科技创造的美好生活。” 京东集团副总裁、AI平台与研究部负责人周伯文表示。','科技','/Add/2018-12-18/5c190e36cac9b.jpg','/Add/2018-12-18/sml5c190e36cac9b.jpg','wzx123')
+
+[ 2018-12-18T23:13:24+08:00 ] ::1 /news%20release%20sysstem%20created%20by%20wzx/index.php/Admin/News/newsupload.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000366s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000561s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000589s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0091s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given G:\php123\Apache24\htdocs\news release sysstem created by wzx\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+ERR: 1406:Data too long for column 'News_Title' at row 1
+ [ SQL语句 ] : INSERT INTO `news` (`News_Title`,`News_Content`,`News_Type`,`News_Img`,`News_smlimg`,`News_Auth`) VALUES ('京东拟于后年投入运营无人大飞机','每年的618，都是京东领衔的电商价格大战，不过，今年618，京东已经不再把价格、营销当做卖点了。今年618，京东主打的是“黑科技”，更准确的说，应该算是“白科技”了，因为其中很多令人酷炫的技术和产品，即将在不久后实现商用，“飞”入寻常百姓家。
+
+　　“今年618是京东第15个生日，618已经成为一个象征着京东成长的符号。从今年开始，我们正式把618打造成为一次零售基础设施建设成果的大阅兵、一场创新零售科技的集中展示以及无界零售的深度实践”，在5月29日召开的JD CUBE 大会上，京东集团CMO徐雷表示。
+
+　　在这场阅兵式上，京东X事业部自主研发的续航1000公里的无人大飞机、L4无人重型卡车、JOY\'S智慧餐厅等黑科技集中亮相。京东集团副总裁、X事业部总裁肖军表示，“未来三年，京东将成为机器人产值、研发、应用规模全球前五的智慧创新型企业。我们还将设立产业基金，建立机器人产业集群，来带动整个智能机器人行业的发展”。
+
+　　重磅黑科技悉数亮相
+
+　　公开信息显示，X事业部成立于2016年5月份，前身是京东物流实验室，如今，其早已超越了物流范畴，成为京东向科技转型的先锋。“两年时间我们京东X事业部做了什么？第一个是无人机，我们的无人机跨过长江，跨过秦岭，从广西出发，进入广西、青海、海南……截止到现在，无人机总计飞行超过两万驾次，总里程达10万公里”，肖军透露。
+
+　　如今，历经一年多的攻关，京东无人机再度获得巨大技术突破。5月29日当天，JDY-800无人机首度亮相，翼展超过10米，具有全天候全自主飞行能力，巡航高度3000米，巡航速度超过200公里/小时，可连续飞行1000公里以上。起飞重量840公斤，能够携带5个标准立方的航空箱。“过去，大型无人机多是由传统的有人机，比如四座、两座有人机改造的，给货舱留出来的空间特别有限，一个将近一吨载重的飞机，货舱容积不到4个立方。而我们这款飞机从最开始就没有驾驶舱，是一架真正意义上用于物流货运的原生态的无人机”，肖军表示，“JDY-800将在今年618期间正式推出，并计划在2020年投入运营”。
+
+　　据记者了解，基于不同等级的物流网络需求，京东已自主研发出十几款不同类型的物流无人机。目前，京东正依托北京、西安两大研发中心，搭建无人机研发应用全产业链。
+
+　　除了天上飞的，地上跑的也隆重亮相——京东无人重型卡车。
+
+　　京东无人重卡是京东2016年成立的硅谷研发中心的最新成果之一，作为一款L4级别的自动驾驶无人重卡，其全长超过20米，已在美国完成了2400小时的测试。肖军表示，京东未来将建立基于L4级别的自动驾驶重型卡车物流网络，这些自动驾驶的重型卡车会承接北上广和京东七大区域中心在高速公路上面的物流，承担干线货运中转和长途运输任务。京东将在高速公路上建设无人卡车服务区，当无人卡车下高速进入城区前，可以进入无人卡车的服务站，由服务站内的司机完成城区内的驾驶。“我们预计2020年在国内完成商业化试运营的部署”。
+
+　　在最后一公里方面，肖军透露：“我们的无人车去年开始已在校园常态化运行，大家现在去人民大学、清华大学会看到一道美丽的风景线，就是一堆人追着我们无人车在跑，很多媒体朋友也经常去参观。今年618，京东的配送机器人将会在主城区上路，会在京东的发源地中关村地区进行配送，还会进入上地软件园进行配送。”
+
+　　作为京东最深的护城河，京东将依托无人科技打造全球首个空地一体智慧物流网络，该智慧网络由干线、支线与末端配送的无人机、无人车，智能终端，智能机场等一系列节点组成。
+
+　　向美团外卖上游挺进
+
+　　如今，已经没有什么可以拦住京东无人科技触角了。尽管在外卖领域，京东不与美团争锋，但是在外卖的上游领域——餐厅，京东可就当仁不让了。
+
+　　会上，京东还首度亮相了JOY\'S智慧餐厅。在视频演示中，机器人大厨可以实现点菜、做菜、传菜全程无人化，精确操控实现烹饪温度、时间、用料的标准化。传菜机器人则自带重力感应系统和智能避障技能，还可以自动优化传菜路径。
+
+　　“今年8月份大家会见到它的实物，它能把世界上最顶尖厨师所做的美味佳肴带给千家万户。现在我们正在跟八大菜系的大厨合作，研发适合用于机器烹饪的菜肴。预计到2020年，餐厅技术与独家菜谱将全面开放，全国加盟店可达1000家”，肖军表示。
+
+　　肖军还透露，京东X无人超市在全国的布局也已达到13家，拓展无界零售新场景的智能售货柜和智能药柜等产品正在布局中。“我们在天津生态城每个社区都铺了一个售药柜，可用24小时满足用户一些即时性的购药需求”。　　
+
+　　打造区块链全程溯源
+
+　　目前最火的区块链技术，京东已然成为其最大的应用场景，其运用区块链技术搭建了“京东区块链防伪追溯平台”，并联手品牌商、物流合作伙伴和第三方检测机构，建立起商品流通数据的可信网络。
+
+　　截至目前，京东已经成为世界上少数拥有大量区块链实际应用场景的企业，国内外合作品牌超过400家，11000多个重点商品已实现全程可追溯。
+
+　　举例来说，全球购的产品要漂洋过海跨越万里耗时多天才能送到客户手中，通过区块链防伪溯源和千里眼视频可视化项目，京东用户可以随时随地实时查看所购商品信息，掌握商品一步步靠近自己的动态信息。
+
+　　在一系列令人目不暇接的黑科技创新背后，也融入了京东的公益之举。据了解，从2017年底开始，“京东微工”项目与中国残疾人福利基金会合作，以宁夏为试点，招募残疾人从事人工智能领域的“数据标注”工作；京东金融也展开了“京东众智”项目，将AI数据标注与残疾朋友的碎片化时间联系在一起，并且建立了一整套的培训与审核机制。
+
+　　“京东希望科技不是冷冰冰的机器，而是能够让用户感受并享受有温度的科技创造的美好生活。” 京东集团副总裁、AI平台与研究部负责人周伯文表示。','科技','/Add/2018-12-18/5c190e947b8d3.jpg','/Add/2018-12-18/sml5c190e947b8d3.jpg','wzx123')
+ERR: 1406:Data too long for column 'News_Title' at row 1
+ [ SQL语句 ] : INSERT INTO `news` (`News_Title`,`News_Content`,`News_Type`,`News_Img`,`News_smlimg`,`News_Auth`) VALUES ('京东拟于后年投入运营无人大飞机','每年的618，都是京东领衔的电商价格大战，不过，今年618，京东已经不再把价格、营销当做卖点了。今年618，京东主打的是“黑科技”，更准确的说，应该算是“白科技”了，因为其中很多令人酷炫的技术和产品，即将在不久后实现商用，“飞”入寻常百姓家。
+
+　　“今年618是京东第15个生日，618已经成为一个象征着京东成长的符号。从今年开始，我们正式把618打造成为一次零售基础设施建设成果的大阅兵、一场创新零售科技的集中展示以及无界零售的深度实践”，在5月29日召开的JD CUBE 大会上，京东集团CMO徐雷表示。
+
+　　在这场阅兵式上，京东X事业部自主研发的续航1000公里的无人大飞机、L4无人重型卡车、JOY\'S智慧餐厅等黑科技集中亮相。京东集团副总裁、X事业部总裁肖军表示，“未来三年，京东将成为机器人产值、研发、应用规模全球前五的智慧创新型企业。我们还将设立产业基金，建立机器人产业集群，来带动整个智能机器人行业的发展”。
+
+　　重磅黑科技悉数亮相
+
+　　公开信息显示，X事业部成立于2016年5月份，前身是京东物流实验室，如今，其早已超越了物流范畴，成为京东向科技转型的先锋。“两年时间我们京东X事业部做了什么？第一个是无人机，我们的无人机跨过长江，跨过秦岭，从广西出发，进入广西、青海、海南……截止到现在，无人机总计飞行超过两万驾次，总里程达10万公里”，肖军透露。
+
+　　如今，历经一年多的攻关，京东无人机再度获得巨大技术突破。5月29日当天，JDY-800无人机首度亮相，翼展超过10米，具有全天候全自主飞行能力，巡航高度3000米，巡航速度超过200公里/小时，可连续飞行1000公里以上。起飞重量840公斤，能够携带5个标准立方的航空箱。“过去，大型无人机多是由传统的有人机，比如四座、两座有人机改造的，给货舱留出来的空间特别有限，一个将近一吨载重的飞机，货舱容积不到4个立方。而我们这款飞机从最开始就没有驾驶舱，是一架真正意义上用于物流货运的原生态的无人机”，肖军表示，“JDY-800将在今年618期间正式推出，并计划在2020年投入运营”。
+
+　　据记者了解，基于不同等级的物流网络需求，京东已自主研发出十几款不同类型的物流无人机。目前，京东正依托北京、西安两大研发中心，搭建无人机研发应用全产业链。
+
+　　除了天上飞的，地上跑的也隆重亮相——京东无人重型卡车。
+
+　　京东无人重卡是京东2016年成立的硅谷研发中心的最新成果之一，作为一款L4级别的自动驾驶无人重卡，其全长超过20米，已在美国完成了2400小时的测试。肖军表示，京东未来将建立基于L4级别的自动驾驶重型卡车物流网络，这些自动驾驶的重型卡车会承接北上广和京东七大区域中心在高速公路上面的物流，承担干线货运中转和长途运输任务。京东将在高速公路上建设无人卡车服务区，当无人卡车下高速进入城区前，可以进入无人卡车的服务站，由服务站内的司机完成城区内的驾驶。“我们预计2020年在国内完成商业化试运营的部署”。
+
+　　在最后一公里方面，肖军透露：“我们的无人车去年开始已在校园常态化运行，大家现在去人民大学、清华大学会看到一道美丽的风景线，就是一堆人追着我们无人车在跑，很多媒体朋友也经常去参观。今年618，京东的配送机器人将会在主城区上路，会在京东的发源地中关村地区进行配送，还会进入上地软件园进行配送。”
+
+　　作为京东最深的护城河，京东将依托无人科技打造全球首个空地一体智慧物流网络，该智慧网络由干线、支线与末端配送的无人机、无人车，智能终端，智能机场等一系列节点组成。
+
+　　向美团外卖上游挺进
+
+　　如今，已经没有什么可以拦住京东无人科技触角了。尽管在外卖领域，京东不与美团争锋，但是在外卖的上游领域——餐厅，京东可就当仁不让了。
+
+　　会上，京东还首度亮相了JOY\'S智慧餐厅。在视频演示中，机器人大厨可以实现点菜、做菜、传菜全程无人化，精确操控实现烹饪温度、时间、用料的标准化。传菜机器人则自带重力感应系统和智能避障技能，还可以自动优化传菜路径。
+
+　　“今年8月份大家会见到它的实物，它能把世界上最顶尖厨师所做的美味佳肴带给千家万户。现在我们正在跟八大菜系的大厨合作，研发适合用于机器烹饪的菜肴。预计到2020年，餐厅技术与独家菜谱将全面开放，全国加盟店可达1000家”，肖军表示。
+
+　　肖军还透露，京东X无人超市在全国的布局也已达到13家，拓展无界零售新场景的智能售货柜和智能药柜等产品正在布局中。“我们在天津生态城每个社区都铺了一个售药柜，可用24小时满足用户一些即时性的购药需求”。　　
+
+　　打造区块链全程溯源
+
+　　目前最火的区块链技术，京东已然成为其最大的应用场景，其运用区块链技术搭建了“京东区块链防伪追溯平台”，并联手品牌商、物流合作伙伴和第三方检测机构，建立起商品流通数据的可信网络。
+
+　　截至目前，京东已经成为世界上少数拥有大量区块链实际应用场景的企业，国内外合作品牌超过400家，11000多个重点商品已实现全程可追溯。
+
+　　举例来说，全球购的产品要漂洋过海跨越万里耗时多天才能送到客户手中，通过区块链防伪溯源和千里眼视频可视化项目，京东用户可以随时随地实时查看所购商品信息，掌握商品一步步靠近自己的动态信息。
+
+　　在一系列令人目不暇接的黑科技创新背后，也融入了京东的公益之举。据了解，从2017年底开始，“京东微工”项目与中国残疾人福利基金会合作，以宁夏为试点，招募残疾人从事人工智能领域的“数据标注”工作；京东金融也展开了“京东众智”项目，将AI数据标注与残疾朋友的碎片化时间联系在一起，并且建立了一整套的培训与审核机制。
+
+　　“京东希望科技不是冷冰冰的机器，而是能够让用户感受并享受有温度的科技创造的美好生活。” 京东集团副总裁、AI平台与研究部负责人周伯文表示。','科技','/Add/2018-12-18/5c190e947b8d3.jpg','/Add/2018-12-18/sml5c190e947b8d3.jpg','wzx123')
+
+[ 2018-12-18T23:13:27+08:00 ] ::1 /news%20release%20sysstem%20created%20by%20wzx/index.php/Admin/News/newsupload.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000322s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000457s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000482s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000068s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000146s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034199s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034234s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000293s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000313s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000771s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000819s ]
+
+[ 2018-12-18T23:13:40+08:00 ] ::1 /news%20release%20sysstem%20created%20by%20wzx/index.php/Admin/News/newsupload.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000306s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000523s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000558s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0577s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000128s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.048609s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.048689s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000721s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000774s ]
+
+[ 2018-12-18T23:13:43+08:00 ] ::1 /news%20release%20sysstem%20created%20by%20wzx/index.php/Admin/News/newsupload.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000365s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000460s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000489s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000117s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027291s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027330s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000295s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000324s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000909s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000961s ]
+
+[ 2018-12-18T23:13:47+08:00 ] ::1 /news%20release%20sysstem%20created%20by%20wzx/index.php/Admin/News/newsupload.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000259s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000384s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000409s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0013s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given G:\php123\Apache24\htdocs\news release sysstem created by wzx\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: INSERT INTO `news` (`News_Title`,`News_Content`,`News_Type`,`News_Img`,`News_smlimg`,`News_Auth`) VALUES ('京东新闻','每年的618，都是京东领衔的电商价格大战，不过，今年618，京东已经不再把价格、营销当做卖点了。今年618，京东主打的是“黑科技”，更准确的说，应该算是“白科技”了，因为其中很多令人酷炫的技术和产品，即将在不久后实现商用，“飞”入寻常百姓家。
+
+　　“今年618是京东第15个生日，618已经成为一个象征着京东成长的符号。从今年开始，我们正式把618打造成为一次零售基础设施建设成果的大阅兵、一场创新零售科技的集中展示以及无界零售的深度实践”，在5月29日召开的JD CUBE 大会上，京东集团CMO徐雷表示。
+
+　　在这场阅兵式上，京东X事业部自主研发的续航1000公里的无人大飞机、L4无人重型卡车、JOY\'S智慧餐厅等黑科技集中亮相。京东集团副总裁、X事业部总裁肖军表示，“未来三年，京东将成为机器人产值、研发、应用规模全球前五的智慧创新型企业。我们还将设立产业基金，建立机器人产业集群，来带动整个智能机器人行业的发展”。
+
+　　重磅黑科技悉数亮相
+
+　　公开信息显示，X事业部成立于2016年5月份，前身是京东物流实验室，如今，其早已超越了物流范畴，成为京东向科技转型的先锋。“两年时间我们京东X事业部做了什么？第一个是无人机，我们的无人机跨过长江，跨过秦岭，从广西出发，进入广西、青海、海南……截止到现在，无人机总计飞行超过两万驾次，总里程达10万公里”，肖军透露。
+
+　　如今，历经一年多的攻关，京东无人机再度获得巨大技术突破。5月29日当天，JDY-800无人机首度亮相，翼展超过10米，具有全天候全自主飞行能力，巡航高度3000米，巡航速度超过200公里/小时，可连续飞行1000公里以上。起飞重量840公斤，能够携带5个标准立方的航空箱。“过去，大型无人机多是由传统的有人机，比如四座、两座有人机改造的，给货舱留出来的空间特别有限，一个将近一吨载重的飞机，货舱容积不到4个立方。而我们这款飞机从最开始就没有驾驶舱，是一架真正意义上用于物流货运的原生态的无人机”，肖军表示，“JDY-800将在今年618期间正式推出，并计划在2020年投入运营”。
+
+　　据记者了解，基于不同等级的物流网络需求，京东已自主研发出十几款不同类型的物流无人机。目前，京东正依托北京、西安两大研发中心，搭建无人机研发应用全产业链。
+
+　　除了天上飞的，地上跑的也隆重亮相——京东无人重型卡车。
+
+　　京东无人重卡是京东2016年成立的硅谷研发中心的最新成果之一，作为一款L4级别的自动驾驶无人重卡，其全长超过20米，已在美国完成了2400小时的测试。肖军表示，京东未来将建立基于L4级别的自动驾驶重型卡车物流网络，这些自动驾驶的重型卡车会承接北上广和京东七大区域中心在高速公路上面的物流，承担干线货运中转和长途运输任务。京东将在高速公路上建设无人卡车服务区，当无人卡车下高速进入城区前，可以进入无人卡车的服务站，由服务站内的司机完成城区内的驾驶。“我们预计2020年在国内完成商业化试运营的部署”。
+
+　　在最后一公里方面，肖军透露：“我们的无人车去年开始已在校园常态化运行，大家现在去人民大学、清华大学会看到一道美丽的风景线，就是一堆人追着我们无人车在跑，很多媒体朋友也经常去参观。今年618，京东的配送机器人将会在主城区上路，会在京东的发源地中关村地区进行配送，还会进入上地软件园进行配送。”
+
+　　作为京东最深的护城河，京东将依托无人科技打造全球首个空地一体智慧物流网络，该智慧网络由干线、支线与末端配送的无人机、无人车，智能终端，智能机场等一系列节点组成。
+
+　　向美团外卖上游挺进
+
+　　如今，已经没有什么可以拦住京东无人科技触角了。尽管在外卖领域，京东不与美团争锋，但是在外卖的上游领域——餐厅，京东可就当仁不让了。
+
+　　会上，京东还首度亮相了JOY\'S智慧餐厅。在视频演示中，机器人大厨可以实现点菜、做菜、传菜全程无人化，精确操控实现烹饪温度、时间、用料的标准化。传菜机器人则自带重力感应系统和智能避障技能，还可以自动优化传菜路径。
+
+　　“今年8月份大家会见到它的实物，它能把世界上最顶尖厨师所做的美味佳肴带给千家万户。现在我们正在跟八大菜系的大厨合作，研发适合用于机器烹饪的菜肴。预计到2020年，餐厅技术与独家菜谱将全面开放，全国加盟店可达1000家”，肖军表示。
+
+　　肖军还透露，京东X无人超市在全国的布局也已达到13家，拓展无界零售新场景的智能售货柜和智能药柜等产品正在布局中。“我们在天津生态城每个社区都铺了一个售药柜，可用24小时满足用户一些即时性的购药需求”。　　
+
+　　打造区块链全程溯源
+
+　　目前最火的区块链技术，京东已然成为其最大的应用场景，其运用区块链技术搭建了“京东区块链防伪追溯平台”，并联手品牌商、物流合作伙伴和第三方检测机构，建立起商品流通数据的可信网络。
+
+　　截至目前，京东已经成为世界上少数拥有大量区块链实际应用场景的企业，国内外合作品牌超过400家，11000多个重点商品已实现全程可追溯。
+
+　　举例来说，全球购的产品要漂洋过海跨越万里耗时多天才能送到客户手中，通过区块链防伪溯源和千里眼视频可视化项目，京东用户可以随时随地实时查看所购商品信息，掌握商品一步步靠近自己的动态信息。
+
+　　在一系列令人目不暇接的黑科技创新背后，也融入了京东的公益之举。据了解，从2017年底开始，“京东微工”项目与中国残疾人福利基金会合作，以宁夏为试点，招募残疾人从事人工智能领域的“数据标注”工作；京东金融也展开了“京东众智”项目，将AI数据标注与残疾朋友的碎片化时间联系在一起，并且建立了一整套的培训与审核机制。
+
+　　“京东希望科技不是冷冰冰的机器，而是能够让用户感受并享受有温度的科技创造的美好生活。” 京东集团副总裁、AI平台与研究部负责人周伯文表示。','要闻','/Add/2018-12-18/5c190eab13e00.jpg','/Add/2018-12-18/sml5c190eab13e00.jpg','wzx123') [ RunTime:0.0728s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000022s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000050s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005372s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005407s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000234s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000255s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.003134s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017618s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.000390s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000005s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.017778s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000524s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000553s ]
+
+[ 2018-12-18T23:13:48+08:00 ] ::1 /news%20release%20sysstem%20created%20by%20wzx/index.php/Admin/News/newsupload.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000522s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000806s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000861s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000045s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000075s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029050s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029084s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000406s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000441s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000880s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000933s ]
+
+[ 2018-12-18T23:13:51+08:00 ] ::1 /news%20release%20sysstem%20created%20by%20wzx/index.php/Admin/News/newsitem.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000324s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000462s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000488s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0420s ]
+SQL: SELECT * FROM `news` WHERE `News_ID` = ''  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000038s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000062s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030084s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030151s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000530s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000571s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000731s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000762s ]
+
+[ 2018-12-18T23:13:53+08:00 ] ::1 /news%20release%20sysstem%20created%20by%20wzx/index.php/Admin/News/newslist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000317s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000451s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000477s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0056s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `news` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `news` ORDER BY News_ID DESC LIMIT 0,9   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000037s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000061s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024202s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024229s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000190s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000206s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000458s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000478s ]
+
+[ 2018-12-18T23:13:56+08:00 ] ::1 /news%20release%20sysstem%20created%20by%20wzx/index.php/Admin/News/newsitem/newsid/10.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000480s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000604s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000642s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `news` WHERE `News_ID` = '10'  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000072s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007663s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007694s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000219s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000238s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000581s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000611s ]
+
+[ 2018-12-18T23:15:16+08:00 ] ::1 /news%20release%20sysstem%20created%20by%20wzx/index.php/Admin/News/newsitem.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000381s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000556s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000589s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0182s ]
+SQL: SELECT * FROM `news` WHERE `News_ID` = ''  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000048s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000075s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007977s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008013s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000218s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000237s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001130s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001187s ]
+
+[ 2018-12-18T23:15:18+08:00 ] ::1 /news%20release%20sysstem%20created%20by%20wzx/index.php/Admin/News/userlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000288s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000377s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000397s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0156s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` LIMIT 1   [ RunTime:0.0084s ]
+SQL: SELECT * FROM `user` ORDER BY userid DESC LIMIT 0,9   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000059s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000099s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.091796s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.091854s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000237s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000257s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000552s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000584s ]
+
+[ 2018-12-18T23:16:26+08:00 ] ::1 /news%20release%20sysstem%20created%20by%20wzx/index.php/Admin/News/newslist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000375s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001088s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001144s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0234s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `news` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `news` ORDER BY News_ID DESC LIMIT 0,9   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000082s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008832s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008863s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000327s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000347s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000584s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000607s ]
+
+[ 2018-12-18T23:16:27+08:00 ] ::1 /news%20release%20sysstem%20created%20by%20wzx/index.php/Admin/News/newsitem/newsid/10.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000300s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000447s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000479s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0147s ]
+SQL: SELECT * FROM `news` WHERE `News_ID` = '10'  [ RunTime:0.0114s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000072s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009444s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009488s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000367s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000400s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000797s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000847s ]
+

@@ -1,0 +1,174 @@
+[ 2018-12-11T08:45:09+08:00 ] ::1 /news%20release%20sysstem%20created%20by%20wzx/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001253s ]
+ERR: 无法加载模块:User
+
+[ 2018-12-11T17:48:45+08:00 ] ::1 /news%20release%20sysstem%20created%20by%20wzx/admin/news/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000353s ]
+ERR: 无法加载模块:Admin
+
+[ 2018-12-11T17:49:05+08:00 ] ::1 /news%20release%20sysstem%20created%20by%20wzx/admin/news/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000350s ]
+ERR: 无法加载模块:Admin
+
+[ 2018-12-11T17:49:07+08:00 ] ::1 /news%20release%20sysstem%20created%20by%20wzx/admin/news/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000308s ]
+ERR: 无法加载模块:Admin
+
+[ 2018-12-11T17:49:07+08:00 ] ::1 /news%20release%20sysstem%20created%20by%20wzx/admin/news/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000315s ]
+ERR: 无法加载模块:Admin
+
+[ 2018-12-11T18:00:34+08:00 ] ::1 /news%20release%20sysstem%20created%20by%20wzx/Admin/News/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000807s ]
+ERR: 无法加载模块:Admin
+
+[ 2018-12-11T18:03:42+08:00 ] ::1 /news%20release%20sysstem%20created%20by%20wzx/Admin/News/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000359s ]
+ERR: 无法加载模块:Admin
+
+[ 2018-12-11T18:03:43+08:00 ] ::1 /news%20release%20sysstem%20created%20by%20wzx/Admin/News/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000300s ]
+ERR: 无法加载模块:Admin
+
+[ 2018-12-11T18:03:43+08:00 ] ::1 /news%20release%20sysstem%20created%20by%20wzx/Admin/News/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000341s ]
+ERR: 无法加载模块:Admin
+
+[ 2018-12-11T18:03:43+08:00 ] ::1 /news%20release%20sysstem%20created%20by%20wzx/Admin/News/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000320s ]
+ERR: 无法加载模块:Admin
+
+[ 2018-12-11T18:03:44+08:00 ] ::1 /news%20release%20sysstem%20created%20by%20wzx/Admin/News/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000278s ]
+ERR: 无法加载模块:Admin
+
+[ 2018-12-11T18:03:44+08:00 ] ::1 /news%20release%20sysstem%20created%20by%20wzx/Admin/News/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000253s ]
+ERR: 无法加载模块:Admin
+
+[ 2018-12-11T18:03:44+08:00 ] ::1 /news%20release%20sysstem%20created%20by%20wzx/Admin/News/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000262s ]
+ERR: 无法加载模块:Admin
+
+[ 2018-12-11T18:03:44+08:00 ] ::1 /news%20release%20sysstem%20created%20by%20wzx/Admin/News/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000245s ]
+ERR: 无法加载模块:Admin
+
+[ 2018-12-11T18:03:44+08:00 ] ::1 /news%20release%20sysstem%20created%20by%20wzx/Admin/News/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000326s ]
+ERR: 无法加载模块:Admin
+
+[ 2018-12-11T18:05:42+08:00 ] ::1 /news%20release%20sysstem%20created%20by%20wzx/Admin/News/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000395s ]
+ERR: 无法加载模块:Admin
+
+[ 2018-12-11T18:05:49+08:00 ] ::1 /news%20release%20sysstem%20created%20by%20wzx/Admin/News/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000321s ]
+ERR: 无法加载模块:Admin
+
+[ 2018-12-11T18:05:50+08:00 ] ::1 /news%20release%20sysstem%20created%20by%20wzx/Admin/News/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000069s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001303s ]
+ERR: 无法加载模块:Admin
+
+[ 2018-12-11T18:05:51+08:00 ] ::1 /news%20release%20sysstem%20created%20by%20wzx/Admin/News/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000547s ]
+ERR: 无法加载模块:Admin
+
+[ 2018-12-11T18:05:51+08:00 ] ::1 /news%20release%20sysstem%20created%20by%20wzx/Admin/News/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000249s ]
+ERR: 无法加载模块:Admin
+
+[ 2018-12-11T18:05:51+08:00 ] ::1 /news%20release%20sysstem%20created%20by%20wzx/Admin/News/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000299s ]
+ERR: 无法加载模块:Admin
+
+[ 2018-12-11T18:09:42+08:00 ] ::1 /news%20release%20sysstem%20created%20by%20wzx/Public/Adminasset/img/bg2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001460s ]
+ERR: 无法加载模块:Public
+
+[ 2018-12-11T18:09:42+08:00 ] ::1 /news%20release%20sysstem%20created%20by%20wzx/Public/Adminasset/img/avatar.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000511s ]
+ERR: 无法加载模块:Public
+
+[ 2018-12-11T18:09:44+08:00 ] ::1 /news%20release%20sysstem%20created%20by%20wzx/Public/Adminasset/img/avatar.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000472s ]
+ERR: 无法加载模块:Public
+
+[ 2018-12-11T18:09:44+08:00 ] ::1 /news%20release%20sysstem%20created%20by%20wzx/Public/Adminasset/img/bg2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000502s ]
+ERR: 无法加载模块:Public
+
+[ 2018-12-11T18:09:44+08:00 ] ::1 /news%20release%20sysstem%20created%20by%20wzx/Public/Adminasset/img/bg2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000113s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001614s ]
+ERR: 无法加载模块:Public
+
+[ 2018-12-11T18:09:44+08:00 ] ::1 /news%20release%20sysstem%20created%20by%20wzx/Public/Adminasset/img/avatar.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002021s ]
+ERR: 无法加载模块:Public
+
+[ 2018-12-11T18:09:45+08:00 ] ::1 /news%20release%20sysstem%20created%20by%20wzx/Public/Adminasset/img/bg2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000510s ]
+ERR: 无法加载模块:Public
+
+[ 2018-12-11T18:09:45+08:00 ] ::1 /news%20release%20sysstem%20created%20by%20wzx/Public/Adminasset/img/avatar.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000452s ]
+ERR: 无法加载模块:Public
+
